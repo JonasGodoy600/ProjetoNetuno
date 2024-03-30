@@ -1,0 +1,442 @@
+@charset "UFT-8"
+
+*{
+    
+}
+    html, body {
+        margin-inline: 0px;
+        padding:0px;
+        height: 100vh;
+        width: 100vw;
+        max-height: 100vh;
+        margin-top: 0px;
+        font-family: "Noto Sans", sans-serif;
+        max-width: 100%;
+        
+     
+        
+
+    }
+    body{
+        overflow-x: hidden;
+    }
+    main > section{
+        position:relative;
+        height: 100vh;
+        background-color: #1A7FBD;
+        max-height: 100vh;
+        max-width: 100vw;
+        
+        
+    }
+    
+    header {
+
+     padding-bottom: 50px;
+     background-image: url("../Assets_Netuno/assets/logo.png");
+     background-repeat: no-repeat;
+     background-size: 20vh;
+     background-position:  top 10vh left 2vh;
+
+     background-color: #1A7FBD;
+     color:#FFF;
+     break-inside: avoid-column;
+    font-size: larger;
+     height: 20vh;
+     
+     
+    }
+
+    header button{
+        background-color: #000;
+        color: #FFF;
+        border-radius: 10px;
+    }
+  
+    section.cabecalho{
+            width: 100vw;
+            height: 10vh;
+           margin-right: 20vh; 
+           float:left;
+
+    }
+
+    .cabecalho a{
+    margin-left: 12vw;
+    font-size: 16px;
+    margin-right: +0.05px;
+    
+    text-decoration: none;
+    
+}   
+
+    header a{
+        margin-left: 20vh;
+        
+        margin-right: +0.5vh;
+        color: #FFF;
+    }
+
+    header hr {
+        
+        width: 100vw;
+    }
+        section{
+        
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        
+        padding-right: -30px;
+        max-height: 100vh;
+       
+        
+        
+        
+    }
+
+    section.info{
+        height: 50vh;
+        width: 50vw;
+        background-color: #1A7FBD;
+        display: inline-block;
+        
+    }
+    .info{
+        padding: 35vh;
+       
+
+        
+    }
+
+    section.formulario{
+        
+        margin-top: -30vh;
+        width: 25vw;
+        height: 50vh;
+        margin-left: 43vw;
+        
+       
+
+    }
+    form{
+        margin-right: 5px;
+        background-color: #FFF;
+        color: #000;
+        border:0.5px solid #fff;
+        border-radius: 10px;
+        
+    }
+    form h4{
+        color: darkgrey;
+    }
+    form h5{
+        color:#1A7FBD;
+    }
+    form select{
+        
+        width: 50vh;
+    }
+    table {
+        
+        background-color: #1A7FBD;
+        color: #FFF;
+        table-layout: left;
+        width: 24.5vw;
+        
+        
+        
+        
+       
+        }
+     table td{
+
+        font-size: 10px;
+    }
+
+    section.imagem > p{
+        display: inline-block;
+        padding: 5px;
+        background-color: rgba(0,0,0, a.514);
+        
+    }
+
+    section#img00 > section.info{
+        background-image: url("../Assets_Netuno/bannertopo.png");
+        background-position: left center;
+        background-size: 150vb;
+        background-repeat: no-repeat;
+        
+    }
+    section#img01 > section.projeto{
+        background-image: url('../Assets_Netuno/dev.png');
+        background-position: left 18% center;
+        background-size: 70vb;
+        background-repeat: no-repeat;
+        
+    }   
+
+    section#img02{
+        background-image: url('../Assets_Netuno/Container2.png');
+        background-position: left 20% top 50%;
+        background-size:70vb;
+        background-repeat:no-repeat;
+       
+    }
+    section.projeto{
+        
+        background-color:#1A7FBD;
+        padding: 25vh;
+        
+    }
+
+    section.projeto p{
+        
+        
+        color: #FFF;
+        text-align:justify;
+        margin-left: 50%;
+        box-shadow: 0 2vh 500px rgba(111, 197, 255, 0.616);
+    }
+    section.projeto h1{
+        color:#A4DCFF;
+        margin-left: 50%;
+    }
+    
+    section.problema > main{
+        text-align:justify;
+        background-color: #FFF;
+    }
+ 
+
+
+
+
+    .fundo{
+
+        background-color: #FFF;
+        width:auto;
+        height:auto;
+        max-height: 100%;
+        
+    }
+    .problema{
+        width: 60vh;
+        height: 70vh;
+        text-align:justify;
+        color:#000;
+        margin-left:50%;
+
+    }
+
+    td{
+
+        padding: 6px;
+        text-align: center;
+        
+    }
+    section.imagem{
+        background-image: url('Site_netuno/Assets_Netuno/Container2.png');
+    }
+    section.blocos {
+        margin-left: 17vw;
+        margin-top: -16vh;
+        
+         width: 100vw;
+        height: 30vh;
+        
+    }
+    .blocos div{
+        float:left;
+        margin-left: +2vh;
+        background-color: #FFF;
+    }
+    section.blocos div{
+
+        min-height: 30vh;
+        min-width: 25vh;
+        max-width:300px;
+        max-height:350px;
+        border:1px inset #000;
+        box-shadow: 0 5vh 20px rgba(150, 149, 149, 0.6);
+        border-radius: 10px;
+        text-align: center;
+
+        }
+
+    section.jornada{
+        
+        color:#FFF;
+        width: 80vw;
+        max-width: 100vw;
+        height: 100vh;
+        margin-left: 10vw;
+    }
+    .jornada h1{
+        margin-left:9vw; 
+        color:#1A7FBD;
+    }
+    .jornada h1 hr{
+        width: 40vh;
+        margin-left: -5px;
+        float:left;
+    }
+    .jornada hr{
+        
+        width: 40vh;
+       
+        float:right;
+        
+    }
+
+    .jornada div{
+        margin-left: 12vw;
+        min-height: 15vh;
+        min-width: 35vh;
+        max-width:250px;
+        max-height:50px;
+        background-color: #1A7FBD;
+        margin-left: 5vw;
+        border: 1px solid #1A7FBD; 
+        box-shadow: 0 5vh 20px rgba(150, 149, 149, 0.6);
+        border-radius: 10px;
+        float:left;
+    }
+    .jornada h4{
+        
+        margin-top: -12vh;
+        margin-left: 10vh;
+    }
+    .jornada div img {
+        
+        
+        background-color: #FFF;
+        display: inline-block;
+        background-size: 10vh;
+        margin-top: 3vh;
+        margin-left: 0.5vw;
+        border-radius: 10px;
+        min-height: 45px;
+        min-width: 50px;
+        max-width: 50px;
+        max-height: 45px;
+    }
+    .jornada b{
+      
+        margin-left: 52vw;
+        
+    }
+    .jornada button{
+        padding:10px;
+        background-color: #000;
+        color:#FFF;
+        margin-left: 24vw;
+        border-radius: 10px;
+        box-shadow: 0 7vh 20px rgba(150, 149, 149, 0.6);
+        font-size: medium;
+    }
+
+    .jornada button strong{
+        color:#1A7FBD;
+    }
+    section#ico01{
+        background-image: url('../Assets_Netuno/icones/calendario.png');
+        background-repeat: no-repeat;
+
+        
+    }
+    section#ico02 {
+        background-image: url('../Assets_Netuno/icones/medalha.png');
+    }
+    section#ico03 {
+        background-image: url('../Assets_Netuno/icones/relogio.png');
+    }
+    section#ico04 {
+        background-image: url('../Assets_Netuno/icones/home.png');
+    }
+    section#ico05 {
+        background-image: url('../Assets_Netuno/icones/group.png');
+    }
+    section#ico06 {
+        background-image: url('../Assets_Netuno/icones/target.png');
+    }
+    section.Objetivo{
+        background-color: #1A7FBD;
+        
+       
+        
+         width: 100vw;
+        height: 80vh;
+        
+    }
+    section.Objetivo div{
+        min-height: 25vh;
+        min-width: 25vh;
+        max-width:300px;
+        max-height:300px;
+        border:1px inset #000;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #FFF;
+        float: left;
+        margin-left: 15vw;
+        margin-right: -13.5vw;
+        }
+    
+    .Objetivo  h1{
+        width: 120px;
+        margin-left: 46.5vw;
+        color:#fff;
+        
+        box-shadow: 5px 5vh 80px rgba(255, 253, 253, 0.897);
+        
+    }
+    .Objetivo  div h1{
+        
+        margin-inline: 6.5vw;
+        color:#000;
+    }
+    
+    b{
+        min-height: 5vh;
+        min-width: 5vh;
+     }
+    footer{
+        
+        background-color: #000;
+        height: 70vh;
+        width: 100vw;
+        color:#FFF;
+        line-height: 30px;
+        margin-left: -8px;
+    }
+
+    footer div{
+        margin-left: 5vh;
+        margin-top: 20vh;
+        margin-left: +5vw;
+        float:left;
+        
+    }
+    footer a{
+        color: #FFF;
+        text-decoration: none;
+    }
+    footer div button{
+        margin-left: 2vw;
+        margin-top: 40px;
+        border-radius: 10px;
+        padding: 15px 50px;
+        background-color: #FFF;
+        color: #000;
+        
+    }
+    footer p{
+        font-size: small;
+    }
+    footer hr{
+        border-left: #FFF;
+        height: 110px;
+        width: 0px;
+        position: absolute;
+    }
+    
